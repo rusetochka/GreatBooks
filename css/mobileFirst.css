@@ -3,7 +3,6 @@
 }
 body{
 	background-color: #2F4F4F;
-	margin: 1%;
 }
 .Column{
 		width: 80%;
@@ -78,22 +77,23 @@ img{
 .Author{
 	font-family: Syne, sans-serif;
 	font-weight: 500;
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	position: absolute;
-	top: 25%;
-	left: 57%;
+	top: 5%;
+	left: 45%;
 	width: 40%;
 	height: 10%;
+
 }
 h5{
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	margin-top: 1%;
 	color: white;
 	position: absolute;
-	left: 57%;
-	top: 40%;
-	width: 40%;
+	left: 44%;
+	top: 25%;
+	width: 45%;
 	height: 10%;
 	color: white;
 
@@ -142,12 +142,35 @@ h5{
 	.Column{
 		width: 30%;
 	}
+	.Author{
+		text-align: center;
+		height: 20%;
+		position: static;
+		font-size: 1rem;
+		width: 100%;
+	}
+	h5{
+		font-size: 0.9rem;
+		position: static;
+		text-align: center;
+		width: 90%;
+		height: 20%;
+	}
+	img{
+		float: none;
+		height: 65%;
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 /*for desktops*/
 @media screen and (min-width: 1280px){
 	.Column{
 		width: 15%;
+	}
+	.Author{
+		margin-top: 2%;
 	}	
 }
 
