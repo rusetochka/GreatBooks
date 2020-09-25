@@ -79,31 +79,24 @@ img{
 	font-family: Syne, sans-serif;
 	font-weight: 500;
 	font-size: 0.9rem;
-<<<<<<< HEAD
 	position: absolute;
 	top: 25%;
 	left: 57%;
 	width: 40%;
-=======
-	display: block;
->>>>>>> decf48d1e591920a9baa4ce0ea8b48fe9d885aba
+	height: 10%;
 }
 h5{
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 1rem;
 	margin-top: 1%;
-<<<<<<< HEAD
 	color: white;
 	position: absolute;
 	left: 57%;
 	top: 40%;
-/*	border: black 2px solid;*/
 	width: 40%;
-
-=======
 	height: 10%;
 	color: white;
->>>>>>> decf48d1e591920a9baa4ce0ea8b48fe9d885aba
+
 }
 .overlay {
   position: absolute;
