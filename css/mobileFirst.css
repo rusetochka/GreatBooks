@@ -4,6 +4,28 @@
 body{
 	background-color: #2F4F4F;
 }
+nav {
+	padding: 1%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+nav a{
+	font-family: Syne, sans-serif;
+	text-decoration: none;
+	margin-right: 2%;
+	color: black;
+	padding: 0.8%;
+	font-size: 0.9rem;
+	opacity: 0.9;
+	text-decoration-line: underline;
+}
+nav a:hover{
+	background-color: rgba(218,165,32,0.7);
+	border-radius: 3px;
+	opacity: 1;
+}
+
+
 .Column{
 		width: 80%;
 		display: none;
@@ -34,7 +56,6 @@ h3{
 	padding-top: 0.5%;
 }
 section{
-	margin-top: 1%;
 	text-align: center;
 }
 img{
@@ -46,7 +67,6 @@ img{
 }
 #myBtnContainer{
 	display: block;
-	width: 100vw;
 }
 
 .content{
@@ -136,7 +156,27 @@ h5{
 	top: 60%;
 	left: 50%;
 }
-
+footer{
+	text-align: center;
+	margin-top: 1%;
+	background-color: rgba(218,165,32,0.7);
+	font-family: Syne, sans-serif;
+	padding: 0.5%;
+}
+#about{
+		width: 80%;
+		display: inline-block;
+		text-align: justify;
+		margin-left: 10%;
+		font-family: Montserrat, sans-serif;
+		line-height: 100%;
+		font-size: 1.3rem;
+		margin-top: 4%;
+	}
+#form{
+	width: 50%;
+	height: 75vh;
+}
 /*for tablets*/
 @media screen and (min-width: 500px){
 	.Column{
@@ -168,6 +208,15 @@ h5{
 @media screen and (min-width: 1280px){
 	.Column{
 		width: 15%;
+	}
+	#about{
+		width: 50%;
+		display: inline-block;
+		text-align: justify;
+		margin-left: 25%;
+		font-family: Montserrat, sans-serif;
+		line-height: 100%;
+		font-size: 1.3rem;
 	}
 
 }
