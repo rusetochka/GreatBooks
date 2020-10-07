@@ -8,6 +8,7 @@ nav {
 	padding: 1%;
 	margin-left: 4%;
 	margin-right: 4%;
+	margin-top: 2%;
 }
 nav a{
 	font-family: Syne, sans-serif;
@@ -24,8 +25,6 @@ nav a:hover{
 	border-radius: 3px;
 	opacity: 1;
 }
-
-
 .Column{
 		width: 80%;
 		display: none;
@@ -67,6 +66,7 @@ img{
 }
 #myBtnContainer{
 	display: block;
+	margin-top: 2%;
 }
 
 .content{
