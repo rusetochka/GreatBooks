@@ -36,15 +36,15 @@
 		</div>
 		<!-- Filters -->
 		<div class = "topnav2" id="myBtnContainer">
-			
+			<a href="javascript:void(0);" class="fltr" onclick="responsiveFilter()">
+    		<i class="fas fa-filter"></i>
+  			</a>
 			<button class="btnr activeFltr" onclick="filterSelection('all')">All</button>
 			<button class="btnr" onclick="filterSelection('Lit')">Literature</button>
 			<button class="btnr" onclick="filterSelection('His')">History and Society</button>
 			<button class="btnr" onclick="filterSelection('Sci')">Science</button>
 			<button class="btnr" onclick="filterSelection('Phi')">Philosophy and Theology</button>
-			<a href="javascript:void(0);" class="fltr" onclick="responsiveFilter()">
-    		<i class="fas fa-filter"></i>
-  			</a>
+			
 		</div>
 		<script>
 			// Add active class to the current filter
