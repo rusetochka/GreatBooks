@@ -16,6 +16,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
 
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 	<!-- Font Awesome Link -->
 	<script src="https://kit.fontawesome.com/b327ed60bd.js" crossorigin="anonymous"></script>
 	</head>
@@ -23,11 +27,19 @@
 	<h1>Great Books of The Western World</h1>
 	<h3>by Mortimer Adler</h3>
 	<nav>
-		<a href = "index.html"><i class = "fas fa-home"></i></a>
-		<a href = "what-it-is.html">What It Is</a>
-		<a href = "https://en.wikipedia.org/wiki/Mortimer_J._Adler" target = _blank>About M.Adler</a>
-		<a href="https://books.google.de/books/about/How_to_Read_a_Book.html?id=Z5PpkQadm5EC&redir_esc=y" target = _blank>How to Read a Book</a>
-		<a href = "feedback.html"><i class = "far fa-comment-dots" href=''></i></a>
+		<div class="topnav" id="myTopnav">
+			<a href = "index.html"><i class = "active fas fa-home"></i></a>	
+  			<a href = "what-it-is.html">What It Is</a>
+			<a href = "https://en.wikipedia.org/wiki/Mortimer_J._Adler" target = _blank>About M.Adler</a>
+			<a href="https://books.google.de/books/about/How_to_Read_a_Book.html?id=Z5PpkQadm5EC&redir_esc=y" target = _blank>How to Read a Book</a>
+			<a href = "feedback.html"><i class = "far fa-comment-dots" href=''></i></a>
+
+  			<a href="javascript:void(0);" class="icon" onclick="responsiveClass()">
+    		<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+		<!--  -->
+		
 	</nav>
 
 	<section>
