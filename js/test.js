@@ -45,3 +45,12 @@ function responsiveClass() {
   }
 }
 
+function responsiveFilter() {
+  var x = document.getElementById("myBtnContainer");
+  if (x.className === "topnav2") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav2";
+  }
+}
+
